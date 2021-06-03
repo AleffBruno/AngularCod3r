@@ -1,0 +1,27 @@
+criar o projeto
+$ ng new NOME_DO_PROJETO --minimal ( minimal retira alguns arquivos extras, como os de teste)
+
+>PULEI A PARTE DE FAZER UPDATE / DELETE NOS PRODUTOS
+
+foi colocado "inlineTemplate": false,"inlineStyle": false no angular.json
+
+$ ng add @angular/material
+
+$ ng g c NOME_COMPONENTE ( gerar um componente automaticamente)
+
+foi criado 3 componentes (footer/header/nav) e eles foram organizados em app.component.html ( veja o arquivo )
+
+navegação {
+    > na criação do projeto foi perguntado se queria usar a parte de roteamento do angular. Com isso agora o projeto tem as rotas do angular
+    > as rotas são definidas em app-routing.module
+    > foi adicionado <router-outlet></router-outlet> em nav.component.html para poder gerenciar componente sera mostrado em cada rota
+    > para criar os "links" para ir para as rotas pode-se utilizar o atributo ` routerLink="NOME_DA_ROTA" `, similar ao href
+}
+
+diretivas {
+    PULEI ESSA PARTE
+}
+
+Pesquisar no google "Angular material Schematics", isso é uma forma de criar componentes de uma forma mais simples
+EX: $ ng generate @angular/material:NOME_DO_SCHEMATICS <NOME_DO_COMPONENTES_QUE_SERA_GERADO>
+> na aplicação atual foi utilizado $ ng generate @angular/material:table components/product/product-read2

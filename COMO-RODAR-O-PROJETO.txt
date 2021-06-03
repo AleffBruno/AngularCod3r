@@ -1,0 +1,6 @@
+Como rodar esse projeto?
+
+1. Acesse a pasta frontend
+2. $ npm i
+3. $ npm run jsonserver
+4. $ npm start
